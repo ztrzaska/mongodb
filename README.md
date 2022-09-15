@@ -4,7 +4,7 @@
 
 This project demonstrates sample spring boot microservice, which use noSQL embedded mongo database. 
 
-On start-up the system saves few entities to database. Objects are stored as whole json documents and by using entity relationships with DBRef annotation.
+On start-up application saves few entities to the database. Objects are stored as whole json documents and by using entity relationships with DBRef annotation.
 Project facilitates REST API with swagger tool to ease invoke endpoints.
 
 ### Swagger

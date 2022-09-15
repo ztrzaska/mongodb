@@ -13,7 +13,7 @@ Project facilitates REST API with swagger tool to ease invoke endpoints.
 http://localhost:8080/swagger-ui/
 ```
 
-### Database connection details
+### Database connection details and initial data
 
 There is no authorization needed
 
@@ -21,7 +21,11 @@ There is no authorization needed
 mongodb://localhost:27017
 ```
 
-Spring boot configuration
+Inital data loaded on start-up
+
+![img.png](img.png)
+
+### Spring boot configuration
 
 ```
 spring.data.mongodb.port=27017

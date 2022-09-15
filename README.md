@@ -33,6 +33,12 @@ spring.data.mongodb.database=embedded
 ```
 
 
+### Docker
+```
+docker build -t mongodb-java .
+docker run -dp 8080:8080 mongodb-java
+```
+
 ### Reference Documentation
 
 For further reference, please consider the following sections:
